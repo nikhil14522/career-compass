@@ -1,7 +1,7 @@
-FROM node:20-bookworm-slim
+FROM node:22-bookworm-slim
 
 # Fallback toolchain in case better-sqlite3 must compile from source
-# (prebuilt binaries for Node 20 usually make this unnecessary)
+# (prebuilt binaries for Node 22 make this unnecessary)
 RUN apt-get update && apt-get install -y --no-install-recommends python3 make g++ \
     && rm -rf /var/lib/apt/lists/*
 

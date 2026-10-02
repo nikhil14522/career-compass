@@ -4,14 +4,10 @@
   "description": "Career Compass — AI-powered career & college guidance for Indian students",
   "type": "module",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=18"
-  },
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
   "dependencies": {
-    "better-sqlite3": "^11.10.0",
+    "better-sqlite3": "^13.0.0",
     "cookie-parser": "^1.4.7",
     "express": "^4.21.2"
   }
