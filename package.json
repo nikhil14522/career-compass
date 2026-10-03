@@ -1,11 +1,15 @@
 {
   "name": "career-compass",
   "version": "1.0.0",
-  "description": "Career Compass — AI-powered career & college guidance for Indian students",
+  "description": "Career Compass — free career & college guidance for Indian students",
   "type": "module",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
     "better-sqlite3": "^13.0.0",
     "cookie-parser": "^1.4.7",
